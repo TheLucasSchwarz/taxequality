@@ -15,7 +15,8 @@ number-sections: true
 # Introduction to the replication report 
 
 ## Using the quarto document (HA_Justice.qmd) in RStudio
-The qmd. should be able to import the final dataset "equaltax_balanced.csv" from the directory when running in RStudio and perform all calculations. In addition, the results of the calculations can be viewed in the HTML document and all steps can be retraced. During the editing process, various data sets were tested in different configurations. Remnants of these are still present in the code. The correct data set used for the analysis was created at the end of the "Data Preparation" chapter. This can be easily imported from chapter 3 "Descriptive Statistics" and used for all subsequent analyses. The preparation code therefore does not need to be executed separately.
+The qmd. should be able to import the final dataset "equaltax_balanced.csv" from the directory when running in RStudio and perform all calculations. In addition, the results of the calculations can be viewed in the HTML document and all steps can be retraced. During the editing process, various data sets were tested in different configurations. Remnants of these are still present in the code. The correct data set used for the analysis was created at the end of the "Data Preparation" chapter. This can be easily imported from chapter 3 "Descriptive Statistics" and used for all subsequent analyses. The preparation code therefore does not need to be executed separately and due to the file size restrictions of GitHub some of the original data files are not part of the repository.
+If you want them, feel free to contact me.
 
 ::: {.callout-important}
 ## **Important**
