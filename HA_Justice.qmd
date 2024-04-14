@@ -11,16 +11,15 @@ toc: true
 number-sections: true
 ---
 
-# Einführung in den Replikationsbericht 
-## Verwendung des Berichts als HTML
-Dieses HTML-Dokument wurde mit Quarto für R erstellt. Diese HTML-Datei kann über Firefox oder jeden chromium-basierten Browser (Google Chrome, Microsoft Edge, etc) lokal und sicher geöffnet werden. Mit dieser kann jeder Schritt der Analyse nachvollzogen werden. An der Rechten Seite kann mithilfe des interaktiven Inhaltsverzeichnisses einfach zu den verschiedenen Kapiteln navigiert werden.
 
-## Verwendung des Quarto-Dokuments (HA_Justice.qmd) in RStudio
-Das qmd. sollte in der Lage sein, den finalen Datensatz "equaltax_balanced.csv" beim Ausführen in RStudio aus dem Verzeichnis zu importieren und alle Berechnungen auszuführen. Zudem können im HTML-Dokument die Ergebnisse der Berechnungen eingesehen und alle Schritte nachvollzogen werden. Während des Bearbeitungsprozesses wurden diverse Datensetze getestet in verschiedenen Konfigurationen. Überbleibsel davon sind noch im Code vorhanden. Der korrekte Datensatz, der zur Analyse benutzt wurde, wurde am Ende des Kapitel "Data Preparation" erstellt. Dieser kann ab Kapitel 3 "Descriptive Statistics" einfach importiert werden und für alle folgenden Analysen verwendet werden. Der Vorbereitungscode muss daher nicht extra ausgeführt werden.
+# Introduction to the replication report 
+
+## Using the quarto document (HA_Justice.qmd) in RStudio
+The qmd. should be able to import the final dataset "equaltax_balanced.csv" from the directory when running in RStudio and perform all calculations. In addition, the results of the calculations can be viewed in the HTML document and all steps can be retraced. During the editing process, various data sets were tested in different configurations. Remnants of these are still present in the code. The correct data set used for the analysis was created at the end of the "Data Preparation" chapter. This can be easily imported from chapter 3 "Descriptive Statistics" and used for all subsequent analyses. The preparation code therefore does not need to be executed separately.
 
 ::: {.callout-important}
-## **Wichtig**
-Dazu muss der gesamte Ordner **"Schwarz_TaxtoEquality_HA-Replikation"** als Projekt in R geöffnet werden und dieser zuvor vollständig heruntergeladen worden sein. Nach dem herunterladen des Ordners muss daher die **"HA_Justice.Rproj"**-Datei (R Projekt) geöffnet werden. Danach kann innerhalb von RStudio die **HA_Justice.qmd**-Datei (Quarto Dokument) unter "**Files**" aufgerufen und verwendet werden.
+## **Important**
+The entire folder **"Schwarz_TaxtoEquality_HA-Replication "** must be opened as a project in R and it must have been completely downloaded beforehand. After downloading the folder, the **"HA_Justice.Rproj "** file (R project) must therefore be opened. The **HA_Justice.qmd** file (Quarto document) can then be opened and used within RStudio under "**Files**".
 :::
 
 # Setup
