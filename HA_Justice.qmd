@@ -1,6 +1,6 @@
 ---
 title: "From Tax to Equality"
-subtitle: "Replikationsbericht für die Hausarbeit im Modul 3: Normative und positive politische Theorie im Master Empirische Demokratieforschung"
+subtitle: "Replication Report"
 author: "Lucas Schwarz"
 date: "2024-03-20"
 format:
